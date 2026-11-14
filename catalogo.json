@@ -1,0 +1,558 @@
+{
+ "actualizado": "2026-11-13T19:02:00-03:00",
+ "whatsapp": "5491154854749",
+ "mostrarPrecio": true,
+ "autos": [
+  {
+   "id": "amarok-v6-2023",
+   "titulo": "Volkswagen Amarok V6",
+   "version": "Comfortline 3.0 V6 258cv 4x4 AT",
+   "anio": 2023,
+   "km": 110000,
+   "precio": 27500,
+   "moneda": "USD",
+   "estado": "disponible",
+   "tipo": "pickup",
+   "mensaje": "la Amarok V6 Comfortline 2023",
+   "fotos": [
+    "fotos/0cdc1a2a4c8855acf0330c4f51f71e14.jpg",
+    "fotos/6f9e3b53b8339436fe4f14b615cc5ef6.jpg",
+    "fotos/a2c838e46a29552edfe2cd42c12af7c4.jpg",
+    "fotos/04827b0a37aa2e34ea49692ccb80958b.jpg",
+    "fotos/4a46ed52d2fc5fdbdd112aa719bdb7d5.jpg",
+    "fotos/d766157acacea5dd8c4bed5e78ad9336.jpg",
+    "fotos/fa1532954a23a8f3c14af703963fb2ea.jpg",
+    "fotos/d0856267a26bfe8fc2da17476bb4397b.jpg",
+    "fotos/070c10ec22f57fbb66688c342c15c24a.jpg",
+    "fotos/7b602254cfa847e07d1c1d8df61b1d04.jpg",
+    "fotos/7a5727254c35c22a376c5e6de0bb0aba.jpg",
+    "fotos/86453d57d474e93c088bc2a12ef28be7.jpg",
+    "fotos/c5a3c92b074158a1d25d5fc7dd6f0210.jpg",
+    "fotos/afb4dfd8d51e19be9860573d40a08f7a.jpg"
+   ],
+   "ficha": [
+    "Motor V6 3.0L turbo diésel",
+    "258 CV · 580 Nm de torque",
+    "Caja automática de 8 velocidades",
+    "Tracción integral"
+   ],
+   "descripcion": "Pickup de cabina doble con el motor V6 diésel, la versión más buscada de la Amarok. Automática, con tracción integral permanente y 110.000 km.",
+   "detalle": [
+    {
+     "k": "Motor",
+     "v": "V6 3.0 TDI turbo diésel"
+    },
+    {
+     "k": "Potencia",
+     "v": "258 CV"
+    },
+    {
+     "k": "Torque",
+     "v": "580 Nm"
+    },
+    {
+     "k": "Caja",
+     "v": "Automática de 8 velocidades"
+    },
+    {
+     "k": "Tracción",
+     "v": "Integral permanente 4Motion"
+    },
+    {
+     "k": "Carrocería",
+     "v": "Pickup cabina doble"
+    },
+    {
+     "k": "Combustible",
+     "v": "Diésel"
+    },
+    {
+     "k": "Kilómetros",
+     "v": "110.000"
+    }
+   ],
+   "categoria": "auto"
+  },
+  {
+   "id": "cherokee-overland-2013",
+   "titulo": "Jeep Grand Cherokee",
+   "version": "Overland 3.6 V6 286hp AT",
+   "anio": 2013,
+   "km": 170000,
+   "precio": 20500,
+   "moneda": "USD",
+   "estado": "disponible",
+   "tipo": "suv",
+   "mensaje": "la Jeep Grand Cherokee Overland 2013",
+   "fotos": [
+    "fotos/621c1278841619c3830f7859876eaefa.jpg",
+    "fotos/f8d739658af351a436e42e40bef8a3ce.jpg",
+    "fotos/174d306b76110f6d85f0ec60b6dbfe30.jpg",
+    "fotos/3b8d14c63c7397b46ed97ee464390b8e.jpg",
+    "fotos/f1fb52a95c41a62cea0d2c9b50e91365.jpg",
+    "fotos/3a170350d4298775e20f40ffd0713a15.jpg",
+    "fotos/763efd72de5d0f6f4b571120bca81ed5.jpg",
+    "fotos/07394e98332ee22f46959e3bcda8baec.jpg",
+    "fotos/0d2e1d825a98ec9ab70270c0048bfe70.jpg",
+    "fotos/50c65606e34c55e922995ec31aac3e36.jpg",
+    "fotos/1673989770349dab7551b766c2df4e5a.jpg",
+    "fotos/e338383245204995b12f40143ef8e515.jpg",
+    "fotos/ae53d6f30fa18d0e1915df5297902eb5.jpg",
+    "fotos/f8c5072e50c5272d9fd2eda3ff25faa1.jpg",
+    "fotos/a3b8e5e2b7b0981860824700dacd71b3.jpg",
+    "fotos/dfe7556897b5f7293ef95ec7060a3e5e.jpg"
+   ],
+   "ficha": [
+    "Motor V6 3.6L nafta",
+    "286 CV",
+    "Caja automática",
+    "Tracción 4x4"
+   ],
+   "descripcion": "SUV grande en su versión tope de gama Overland, con motor V6 nafta, caja automática y tracción 4x4.",
+   "detalle": [
+    {
+     "k": "Motor",
+     "v": "V6 3.6 nafta"
+    },
+    {
+     "k": "Potencia",
+     "v": "286 CV"
+    },
+    {
+     "k": "Caja",
+     "v": "Automática"
+    },
+    {
+     "k": "Tracción",
+     "v": "4x4"
+    },
+    {
+     "k": "Carrocería",
+     "v": "SUV 5 puertas"
+    },
+    {
+     "k": "Combustible",
+     "v": "Nafta"
+    },
+    {
+     "k": "Kilómetros",
+     "v": "170.000"
+    }
+   ],
+   "categoria": "auto"
+  },
+  {
+   "id": "tracker-ltz-2023",
+   "titulo": "Chevrolet Tracker",
+   "version": "LTZ 1.2 Turbo AT",
+   "anio": 2023,
+   "km": 40000,
+   "precio": 28500000,
+   "moneda": "ARS",
+   "estado": "disponible",
+   "tipo": "suv",
+   "mensaje": "la Tracker LTZ 2023",
+   "fotos": [],
+   "ficha": [
+    "Motor 1.2 turbo nafta",
+    "Caja automática de 6 velocidades"
+   ],
+   "descripcion": "SUV compacto con motor turbo y caja automática, en la versión LTZ. Con 40.000 km, de las menos usadas de su año.",
+   "detalle": [
+    {
+     "k": "Motor",
+     "v": "1.2 turbo nafta"
+    },
+    {
+     "k": "Potencia",
+     "v": "132 CV"
+    },
+    {
+     "k": "Torque",
+     "v": "190 Nm"
+    },
+    {
+     "k": "Caja",
+     "v": "Automática de 6 velocidades"
+    },
+    {
+     "k": "Tracción",
+     "v": "Delantera"
+    },
+    {
+     "k": "Carrocería",
+     "v": "SUV 5 puertas"
+    },
+    {
+     "k": "Kilómetros",
+     "v": "40.000"
+    }
+   ],
+   "categoria": "auto"
+  },
+  {
+   "id": "cerato-forte-2-0",
+   "titulo": "Kia Cerato",
+   "version": "2.0 AT (2019)",
+   "anio": 2019,
+   "km": 80000,
+   "precio": 16500,
+   "moneda": "USD",
+   "estado": "disponible",
+   "tipo": "sedan",
+   "mensaje": "el Kia Cerato 2019",
+   "fotos": [
+    "fotos/92b8d3b23c237612a9e969d808fdd78b.jpg",
+    "fotos/78dcc94a1fe6aa39220049fe1b67a4f6.jpg",
+    "fotos/83dd272b7df0a2556029b111e5701a34.jpg",
+    "fotos/8cb7fee942bc06bfddf09e7843409645.jpg",
+    "fotos/21a5032aed769e5225ebf77a0c5fe4b2.jpg",
+    "fotos/a36d0a8f88ec45fd460d3b32730c25db.jpg",
+    "fotos/d22a93490236a41eeb9e6a10248cb304.jpg",
+    "fotos/3346a8d5340ee51925aa8b08fd4aea07.jpg",
+    "fotos/c30c4bd6d8c3b51b4fb1bce065815f2b.jpg",
+    "fotos/9e89ddedacd6ae1fefbbb026305e9456.jpg",
+    "fotos/629044d80bab1ec9b7a88f9f30c4297a.jpg"
+   ],
+   "ficha": [
+    "Motor 2.0 nafta",
+    "Caja automática de 6 velocidades"
+   ],
+   "descripcion": "Sedán mediano automático, cómodo para el día a día y la ruta, con 80.000 km.",
+   "detalle": [
+    {
+     "k": "Motor",
+     "v": "2.0 nafta"
+    },
+    {
+     "k": "Caja",
+     "v": "Automática de 6 velocidades"
+    },
+    {
+     "k": "Tracción",
+     "v": "Delantera"
+    },
+    {
+     "k": "Combustible",
+     "v": "Nafta"
+    },
+    {
+     "k": "Kilómetros",
+     "v": "80.000"
+    }
+   ],
+   "categoria": "auto"
+  },
+  {
+   "id": "benelli-tnt600i-2024",
+   "titulo": "Benelli TNT 600i",
+   "version": "TNT 600i (4 cilindros, 600 cc)",
+   "anio": 2024,
+   "km": 10000,
+   "precio": 9500,
+   "moneda": "USD",
+   "estado": "disponible",
+   "tipo": "moto",
+   "mensaje": "la moto Benelli TNT 600i 2024",
+   "fotos": [
+    "fotos/6c7824fba3b18440e1090a6b80d5eed5.jpg",
+    "fotos/2d951a67b34037b7a0e9b530a04558fc.jpg",
+    "fotos/8cf36c9196f96867c999fdf537186f68.jpg",
+    "fotos/a81999e60df2c8bf0ffd810c7a3b8b94.jpg",
+    "fotos/01e54c79299f8977a29223556380af8e.jpg",
+    "fotos/201821d5486ee981d567fea5e2966858.jpg",
+    "fotos/5c2958b283644ea5d235cdc3bc25fb28.jpg",
+    "fotos/5ec70849bddd979810f03c93ee1328c8.jpg",
+    "fotos/677ee11edd23c77a479d397b05026c18.jpg",
+    "fotos/fe0af53f2c90dd461c1d86be1dd016cd.jpg",
+    "fotos/099d9b2056f86ec8595769c5b11ead06.jpg",
+    "fotos/408f2108821f30e54f0d14cee687ef93.jpg",
+    "fotos/2fdfbf892d0327035bcad52257864a4f.jpg"
+   ],
+   "ficha": [
+    "Motor 4 cilindros en línea, 600 cc",
+    "Refrigeración líquida",
+    "Caja de 6 velocidades"
+   ],
+   "descripcion": "Moto naked de 600 cc con motor de 4 cilindros y 10.000 km. Tiene segunda llave, sliders, espejos y soporte de patente rebatible, y conserva todo lo original.",
+   "detalle": [
+    {
+     "k": "Motor",
+     "v": "4 cilindros en línea, 600 cc"
+    },
+    {
+     "k": "Refrigeración",
+     "v": "Líquida"
+    },
+    {
+     "k": "Caja",
+     "v": "Manual de 6 velocidades"
+    },
+    {
+     "k": "Tipo",
+     "v": "Naked"
+    },
+    {
+     "k": "Combustible",
+     "v": "Nafta"
+    },
+    {
+     "k": "Color",
+     "v": "Verde y negro"
+    },
+    {
+     "k": "Kilómetros",
+     "v": "10.000"
+    }
+   ],
+   "categoria": "moto"
+  },
+  {
+   "id": "honda-xr250-tornado-2024",
+   "titulo": "Honda XR 250 Tornado",
+   "version": "XR 250 Tornado (250 cc)",
+   "anio": 2024,
+   "km": 3500,
+   "precio": 8300000,
+   "moneda": "ARS",
+   "estado": "disponible",
+   "tipo": "moto",
+   "categoria": "moto",
+   "mensaje": "la moto Honda XR 250 Tornado 2024",
+   "fotos": [
+    "fotos/63459dad6d1a1a7de0dec977adf9c407.jpg",
+    "fotos/1a7c9a3117a9e3da29ddd5f605192944.jpg",
+    "fotos/883a47491f49f9e36e87703b573c009b.jpg",
+    "fotos/ff0993ec14a7ca112cddd6bf69b290b6.jpg",
+    "fotos/a306a6a0bab6cafda05750ab4009e58b.jpg",
+    "fotos/df2fc40ee7540a50fa0e83d6e4635161.jpg"
+   ],
+   "ficha": [
+    "Motor monocilíndrico de 250 cc, 4 tiempos",
+    "Refrigeración por aire",
+    "Caja de 5 velocidades"
+   ],
+   "descripcion": "Moto doble propósito con 3.500 km y todos los services hechos en Honda oficial. Sirve para la ciudad, la ruta y el camino de tierra.",
+   "detalle": [
+    {
+     "k": "Motor",
+     "v": "Monocilíndrico 250 cc, 4 tiempos"
+    },
+    {
+     "k": "Refrigeración",
+     "v": "Por aire"
+    },
+    {
+     "k": "Caja",
+     "v": "Manual de 5 velocidades"
+    },
+    {
+     "k": "Tipo",
+     "v": "Enduro / doble propósito"
+    },
+    {
+     "k": "Combustible",
+     "v": "Nafta"
+    },
+    {
+     "k": "Color",
+     "v": "Rojo y blanco"
+    },
+    {
+     "k": "Services",
+     "v": "Todos en Honda oficial"
+    },
+    {
+     "k": "Kilómetros",
+     "v": "3.500"
+    }
+   ]
+  },
+  {
+   "id": "honda-twister-cb300-2024",
+   "titulo": "Honda CB 300 Twister",
+   "version": "CB 300F Twister (300 cc)",
+   "anio": 2024,
+   "km": 13000,
+   "precio": 4300,
+   "moneda": "USD",
+   "estado": "disponible",
+   "tipo": "moto",
+   "categoria": "moto",
+   "mensaje": "la moto Honda Twister CB 300 2024",
+   "fotos": [
+    "fotos/03a968ccb4d67b3a2080cacad431b66b.jpg",
+    "fotos/7fd7508a71d2b21f5f3cebf11a256d6c.jpg",
+    "fotos/591dbadc6147a6887a2af60276017756.jpg",
+    "fotos/f4834833e7cdc9fc223ddd1fa485ebf5.jpg",
+    "fotos/20959a01462221926f9aa63775f6ade3.jpg",
+    "fotos/ceb545e8c43b25931dc36561bdc4ce3c.jpg",
+    "fotos/e4d553301ff16b1fde04baa2c69c6d56.jpg"
+   ],
+   "ficha": [
+    "Motor monocilíndrico de 293 cc, 4 tiempos",
+    "Caja de 6 velocidades",
+    "Frenos a disco con ABS"
+   ],
+   "descripcion": "Moto naked de 300 cc, cómoda para la ciudad y la ruta. Modelo 2024 con 13.000 km.",
+   "detalle": [
+    {
+     "k": "Motor",
+     "v": "Monocilíndrico 293 cc, 4 tiempos"
+    },
+    {
+     "k": "Caja",
+     "v": "Manual de 6 velocidades"
+    },
+    {
+     "k": "Frenos",
+     "v": "Disco delantero y trasero con ABS"
+    },
+    {
+     "k": "Tipo",
+     "v": "Naked"
+    },
+    {
+     "k": "Combustible",
+     "v": "Nafta"
+    },
+    {
+     "k": "Color",
+     "v": "Rojo y negro"
+    },
+    {
+     "k": "Kilómetros",
+     "v": "13.000"
+    }
+   ]
+  },
+  {
+   "id": "lancha-eclipse-16-2009",
+   "titulo": "Eclipse 16",
+   "version": "Mercury 90 HP 2T",
+   "anio": 2009,
+   "km": null,
+   "horas": 255,
+   "precio": 10500,
+   "moneda": "USD",
+   "estado": "disponible",
+   "tipo": "lancha",
+   "categoria": "nautica",
+   "mensaje": "la lancha Eclipse 16 2009",
+   "fotos": [
+    "fotos/b67d6085603163e276172bd2481fcf61.jpg",
+    "fotos/2423a0c2d40f835a41e0bfc580862c36.jpg",
+    "fotos/4f8166b9367939aea86678bf1727f22b.jpg",
+    "fotos/b4f9874ae7c0c73a1836d35ec18e898e.jpg",
+    "fotos/ed469ddffb800e68dd64fc2713f4dbc4.jpg",
+    "fotos/1b72af585dd94400edbc4ed7348af552.jpg",
+    "fotos/e5332871014a02d334fee9d7ab1db48d.jpg",
+    "fotos/c88670dbc7c49290e81501d104ead55a.jpg",
+    "fotos/402d871fd0856bd0dea6a59989e1c70f.jpg",
+    "fotos/eb88249f9a2be8a45b6d56372019d082.jpg"
+   ],
+   "ficha": [
+    "Motor Mercury 90 HP 2 tiempos",
+    "255 horas de uso",
+    "Ecosonda · estéreo · mástil wakeboard"
+   ],
+   "descripcion": "Lancha open de 16 pies, siempre guardada bajo techo en guardería náutica. Viene con bimini, lona de proa y escalera.",
+   "detalle": [
+    {
+     "k": "Motor",
+     "v": "Mercury 90 HP 2 tiempos"
+    },
+    {
+     "k": "Horas de uso",
+     "v": "255"
+    },
+    {
+     "k": "Equipamiento",
+     "v": "Ecosonda, estéreo, mástil wakeboard"
+    },
+    {
+     "k": "Extras",
+     "v": "Bimini, lona de proa, escalera"
+    },
+    {
+     "k": "Guardado",
+     "v": "Bajo techo"
+    }
+   ]
+  },
+  {
+   "id": "tcross-trendline-2024",
+   "titulo": "Volkswagen T-Cross",
+   "version": "Trendline 200TSI AT",
+   "anio": 2024,
+   "km": 62000,
+   "precio": 21000,
+   "moneda": "USD",
+   "estado": "disponible",
+   "tipo": "suv",
+   "categoria": "auto",
+   "mensaje": "la T-Cross Trendline 2024",
+   "fotos": [
+    "fotos/c07b1ad3dd367923ea1af95332e84243.jpg",
+    "fotos/40083651b8a8b683797337cc81d16a0c.jpg",
+    "fotos/a19e0c69551984ec71e523bb82bdec86.jpg",
+    "fotos/ddc8cf097861f264dabd1715d5394ff7.jpg",
+    "fotos/22cf50f5ea96e0608a1379edff77c9c6.jpg",
+    "fotos/81f42b5b82bddf439c1747230767b3a2.jpg",
+    "fotos/bcc9a0c7a405afa5fc83ff2205dec2f3.jpg",
+    "fotos/b7fa6fe5643635d5c3757a7f9544300a.jpg",
+    "fotos/ecccd65411c371eee3c75e932d2e86bf.jpg",
+    "fotos/211c17af301e94310c210fdfb2953b1c.jpg"
+   ],
+   "ficha": [
+    "Motor 1.0 TSI turbo nafta",
+    "116 CV · 200 Nm de torque",
+    "Caja automática de 6 velocidades",
+    "Tracción delantera"
+   ],
+   "descripcion": "SUV compacto con motor turbo y caja automática de 6 marchas con levas al volante. Tiene 62.000 km y los services recién hechos.",
+   "detalle": [
+    {
+     "k": "Motor",
+     "v": "1.0 TSI turbo nafta, 3 cilindros"
+    },
+    {
+     "k": "Potencia",
+     "v": "116 CV"
+    },
+    {
+     "k": "Torque",
+     "v": "200 Nm"
+    },
+    {
+     "k": "Caja",
+     "v": "Automática de 6 velocidades, con levas al volante"
+    },
+    {
+     "k": "Tracción",
+     "v": "Delantera"
+    },
+    {
+     "k": "Carrocería",
+     "v": "SUV 5 puertas"
+    },
+    {
+     "k": "Combustible",
+     "v": "Nafta"
+    },
+    {
+     "k": "Seguridad",
+     "v": "6 airbags · 5 estrellas Latin NCAP"
+    },
+    {
+     "k": "Services",
+     "v": "Recién hechos"
+    },
+    {
+     "k": "Kilómetros",
+     "v": "62.000"
+    }
+   ]
+  }
+ ]
+}

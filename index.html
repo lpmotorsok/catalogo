@@ -1,0 +1,363 @@
+<!doctype html><html><head><base href="/"><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
+<title>lp.motors Catálogo</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600&family=Cinzel:wght@600;700&display=swap">
+<style>
+/* Brand: graphite gray ground (a touch lighter), deep oxblood line work, thin geometric caps. One look, no theme switch. */
+:root{
+  --bg:#666666; --bg2:#727272; --card:#5a5a5a; --ox:#300000; --ox2:#4a0a0a; --ink:#f4f0ed; --soft:#ddd5d1; --line:rgba(120,30,30,.75); --wine:#7a1d1d; --wine2:#93302b;
+  --f:"Jost","Futura","Century Gothic","Avenir Next",system-ui,sans-serif;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html{background:#5c5c5c}
+body{background:radial-gradient(120% 70% at 50% -8%,#7b7b7b 0%,#686868 42%,#5a5a5a 100%) fixed;min-height:100vh}
+html,body{color:var(--ink);font-family:var(--f);font-weight:400;margin:0}
+body{padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.wrap{max-width:1180px;margin:0 auto;padding-block:28px 60px}
+header.brand{display:grid;justify-items:center;gap:6px;text-align:center;padding-block:10px 26px}
+.brand .mark{width:min(420px,80%);height:auto;display:block}
+.brand h1{text-shadow:0 1px 0 rgba(255,255,255,.14);margin:0;font-weight:400;letter-spacing:.14em;font-size:clamp(34px,7vw,64px);color:var(--ox);text-indent:.14em;line-height:1.1}
+.brand .rule{position:relative;width:min(560px,90%);height:2px;background:linear-gradient(90deg,transparent,var(--wine) 18%,var(--ox) 50%,var(--wine) 82%,transparent);border-radius:2px}
+.brand .rule::after{content:"";position:absolute;left:50%;top:50%;width:9px;height:9px;background:var(--wine2);transform:translate(-50%,-50%) rotate(45deg);box-shadow:0 0 0 3px #6a6a6a}
+.brand p{margin:8px 0 0;color:var(--soft);letter-spacing:.12em;text-transform:uppercase;font-size:13px}
+.brand p.cat{margin:10px 0 0;color:var(--ox);font-size:clamp(16px,2.4vw,22px);letter-spacing:.42em;text-indent:.42em;font-weight:400}
+.bar{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-bottom:26px}
+.bar button{background:transparent;border:1px solid var(--ox);color:var(--ink);font-family:var(--f);font-weight:400;letter-spacing:.14em;text-transform:uppercase;font-size:12px;padding:8px 16px;border-radius:999px;cursor:pointer}
+.bar button[aria-pressed="true"]{background:var(--ox);border-color:var(--ox)}
+.bar.sub{margin:-12px 0 22px;gap:8px}.bar.sub button{font-size:11px;padding:6px 13px}
+.sort select{font:inherit;color:var(--ink);background:transparent;border:1px solid currentColor;border-radius:999px;padding:4px 10px;cursor:pointer}
+.sep{display:flex;align-items:center;gap:14px;margin:0 auto 26px;max-width:760px;color:var(--soft);font-size:12px;letter-spacing:.32em;text-transform:uppercase;text-indent:.32em}
+.sep::before,.sep::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--wine))}
+.sep::after{background:linear-gradient(90deg,var(--wine),transparent)}
+.sep b{font-weight:400;color:var(--ink)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,320px),1fr));gap:22px}
+.car{position:relative;background:linear-gradient(180deg,#5f5f5f,#545454);border:1px solid rgba(255,255,255,.07);border-radius:14px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 12px 30px rgba(0,0,0,.18);transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;animation:up .5s ease both;animation-delay:calc(var(--i,0) * 70ms)}
+.car:hover{transform:translateY(-4px);box-shadow:0 20px 40px rgba(0,0,0,.26);border-color:rgba(147,48,43,.55)}
+.car .cw::after{content:"";position:absolute;left:0;right:0;bottom:0;height:3px;background:linear-gradient(90deg,var(--ox),var(--wine2),var(--ox));z-index:1}
+.num{position:absolute;right:16px;top:15px;font-size:14px;letter-spacing:.2em;color:#b5534a;font-weight:400}
+.card-body-top{position:relative}
+@keyframes up{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.car{animation:none;transition:none}.car:hover{transform:none}}
+.open{cursor:pointer}
+/* carousel (cards and detail) */
+.slides{position:relative;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;background:var(--bg2);aspect-ratio:4/3;max-width:100%}
+.slides::-webkit-scrollbar{display:none}
+.slides img{flex:0 0 100%;width:100%;height:100%;object-fit:cover;scroll-snap-align:start;display:block}
+.slides .ph{flex:0 0 100%;display:grid;place-items:center;padding:30px}
+.slides .ph.prox{padding:0}.slides .ph.prox span{font-size:28px;letter-spacing:.12em;text-transform:uppercase;text-align:center;line-height:1.4;color:#93302b;opacity:.85}
+.price{color:#6e1717;font-size:32px}
+.price.prox{font-size:18px;letter-spacing:.1em;text-transform:uppercase;opacity:.85}
+.slides .ph img{object-fit:contain;opacity:.75;width:80%;height:auto}
+.cw{position:relative}
+.dots{position:absolute;left:0;right:0;bottom:10px;display:flex;justify-content:center;gap:6px;pointer-events:none}
+.dots i{width:7px;height:7px;border-radius:50%;background:rgba(255,255,255,.5)}
+.dots i.on{background:#fff}
+.arrow{position:absolute;top:50%;transform:translateY(-50%);width:40px;height:40px;border-radius:50%;border:0;background:rgba(48,0,0,.85);color:#fff;font-size:22px;cursor:pointer;display:grid;place-items:center}
+.arrow.prev{left:10px}.arrow.next{right:10px}
+@media (hover:none){.card-arrows .arrow{display:none}}
+.tag{position:absolute;left:10px;top:10px;background:var(--ink);color:var(--ox);font-weight:500;font-size:11px;letter-spacing:.16em;text-transform:uppercase;padding:4px 10px;border-radius:999px}
+.count{position:absolute;right:10px;top:10px;background:rgba(48,0,0,.85);color:var(--ink);font-size:12px;letter-spacing:.08em;padding:3px 9px;border-radius:999px}
+.body{position:relative;padding:18px 18px 20px;display:grid;gap:10px;flex:1}
+.body h2{margin:0;font-weight:400;font-size:22px;letter-spacing:.06em;text-transform:uppercase;line-height:1.15;text-wrap:balance}
+.ver{color:var(--soft);font-size:14px;letter-spacing:.04em}
+.meta{display:flex;gap:8px;flex-wrap:wrap}
+.meta span{background:rgba(0,0,0,.1);border:1px solid var(--line);border-radius:999px;padding:3px 11px;font-size:13px;letter-spacing:.08em;font-variant-numeric:tabular-nums}
+.price{border-top:1px solid rgba(147,48,43,.55);padding-top:10px;margin-top:2px;font-size:26px;font-weight:400;letter-spacing:.04em;font-variant-numeric:tabular-nums}
+.ficha{margin:0;padding:0;list-style:none;display:grid;gap:4px;font-size:14px;color:var(--soft)}
+.ficha li{padding-left:14px;position:relative}
+.ficha li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:2px;background:var(--wine2)}
+.more{color:var(--ink);font-size:13px;letter-spacing:.12em;text-transform:uppercase;text-decoration:underline;text-underline-offset:4px;background:none;border:0;padding:0;cursor:pointer;justify-self:start;font-family:var(--f)}
+.wa{position:relative;overflow:hidden;box-shadow:inset 0 1px 0 rgba(255,255,255,.1),0 6px 16px rgba(48,0,0,.3);transition:background .2s,transform .2s;display:flex;align-items:center;justify-content:center;gap:10px;background:linear-gradient(180deg,#4d0d0d,var(--ox));color:var(--ink);text-decoration:none;font-weight:400;letter-spacing:.14em;text-transform:uppercase;font-size:13px;padding:13px 14px;border-radius:10px}
+.wa:hover{background:linear-gradient(180deg,#5e1414,#3a0505)}
+.wa::after{content:"";position:absolute;top:0;bottom:0;left:-60%;width:40%;background:linear-gradient(100deg,transparent,rgba(255,255,255,.14),transparent);transform:skewX(-18deg);transition:left .6s ease}
+.wa:hover::after{left:120%}
+.wa svg{width:18px;height:18px}
+.body .wa{margin-top:auto}
+.empty{text-align:center;color:var(--soft);letter-spacing:.08em;padding:40px 0}
+footer::before{display:none;content:"";width:min(320px,70%);height:1px;background:linear-gradient(90deg,transparent,var(--wine),transparent);margin-bottom:10px}
+footer{margin-top:40px;text-align:center;color:var(--soft);font-size:13px;letter-spacing:.1em;display:grid;gap:8px;justify-items:center}
+.sort{display:flex;flex-wrap:wrap;gap:6px 14px;justify-content:center;align-items:center;margin:-12px 0 24px;font-size:13px;letter-spacing:.06em;color:var(--soft)}
+.sort button{background:none;border:0;padding:4px 2px;font:inherit;color:var(--ink);cursor:pointer;border-bottom:1px solid transparent}
+.sort button[aria-pressed="true"]{color:#6e1717;border-bottom-color:#6e1717}
+.flogo{font-family:"Cinzel","Trajan Pro",serif;font-weight:700;color:#6e1717;font-size:26px;letter-spacing:.1em;text-indent:.1em}
+.frule{position:relative;width:min(260px,70%);height:2px;background:#8a2a24;margin:2px 0 8px}
+.frule::after{content:"";position:absolute;left:50%;top:50%;width:8px;height:8px;background:#9b3a2c;transform:translate(-50%,-50%) rotate(45deg);box-shadow:0 0 0 3px #efe8dc}
+.fred{font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#6e1717}
+.flinks{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin:4px 0 10px}
+.flinks a{display:flex;align-items:center;gap:8px;padding:9px 18px;border:1px solid #6e1717;border-radius:999px;color:#6e1717;text-decoration:none;font-size:14px;letter-spacing:.08em;transition:background .2s,color .2s}
+.flinks a:hover{background:#6e1717;color:#fbf8f3}
+.flinks svg{width:18px;height:18px}
+/* detail view */
+.detail{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:860px){.detail{grid-template-columns:1fr}}
+.back{background:transparent;border:1px solid var(--ox);color:var(--ink);font-family:var(--f);letter-spacing:.14em;text-transform:uppercase;font-size:12px;padding:8px 16px;border-radius:999px;cursor:pointer;margin-bottom:18px}
+.dgal .slides{border-radius:14px;aspect-ratio:4/3;width:100%;background:#4a4a4a}
+.dgal .slides .sl{flex:0 0 100%;width:100%;height:100%;position:relative;overflow:hidden;scroll-snap-align:start;cursor:pointer}
+.sl .bg,.lbbg{position:absolute;inset:-30px;width:calc(100% + 60px);height:calc(100% + 60px);object-fit:cover;filter:blur(26px) brightness(.85) saturate(1.1);pointer-events:none}
+.dgal .slides .sl .fg{position:relative;width:100%;height:100%;object-fit:contain;display:block}
+/* visor de fotos (como MercadoLibre) */
+.lb{position:fixed;inset:0;z-index:50;background:#3a3a3a;display:flex;flex-direction:column;overflow:hidden;touch-action:none}
+.lb[hidden]{display:none!important}
+.lbbg{position:absolute;inset:-40px;width:calc(100% + 80px);height:calc(100% + 80px);filter:blur(34px) brightness(.7);transition:opacity .2s}
+.lb .strip{position:relative;flex:1;min-height:0;display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;overscroll-behavior:contain}
+.lb .strip::-webkit-scrollbar{display:none}
+.lb.zoomed .strip{overflow-x:hidden}
+.lb .z{flex:0 0 100%;width:100%;height:100%;overflow:hidden;scroll-snap-align:start;display:flex}
+.lb .z.on{overflow:auto;scrollbar-width:none}
+.lb .z img{margin:auto;width:100%;height:100%;object-fit:contain;max-width:none;user-select:none;-webkit-user-drag:none;cursor:zoom-in}
+.lb .z.on img{cursor:zoom-out;object-fit:fill}
+.lb .top{position:absolute;top:max(10px,env(safe-area-inset-top,0px));left:10px;right:10px;display:flex;justify-content:space-between;align-items:center;pointer-events:none;z-index:3}
+.lb .top>*{pointer-events:auto}
+.lb .cnt{background:rgba(0,0,0,.5);color:#fff;font-size:13px;letter-spacing:.08em;padding:5px 11px;border-radius:999px}
+.lb .x{width:44px;height:44px;border-radius:50%;border:0;background:rgba(0,0,0,.55);color:#fff;font-size:26px;cursor:pointer;line-height:1}
+.lb .arrow{z-index:3;top:calc(50% - 46px)}
+.lb .lbth{position:relative;z-index:3;display:flex;gap:8px;overflow-x:auto;padding:10px 12px max(12px,env(safe-area-inset-bottom,0px));background:rgba(0,0,0,.45);scrollbar-width:none;justify-content:safe center}
+.lb .lbth::-webkit-scrollbar{display:none}
+.lb .lbth button{flex:0 0 auto;border:2px solid transparent;border-radius:6px;padding:0;background:none;cursor:pointer;overflow:hidden;opacity:.65}
+.lb .lbth button.on{border-color:#fff;opacity:1}
+.lb .lbth img{width:64px;height:48px;object-fit:cover;display:block}
+@media (hover:none){.lb .arrow{display:none}}
+.thumbs{display:flex;gap:8px;overflow-x:auto;margin-top:10px;padding-bottom:4px}
+.thumbs button{flex:0 0 auto;border:2px solid transparent;border-radius:8px;padding:0;background:none;cursor:pointer;overflow:hidden}
+.thumbs button.on{border-color:var(--ink)}
+.thumbs img{width:84px;height:63px;object-fit:cover;display:block}
+.info{border-top:3px solid var(--wine2);background:linear-gradient(180deg,#5f5f5f,#545454);border-radius:14px;padding:22px;display:grid;gap:14px;position:sticky;top:16px}
+.info h2{margin:0;font-weight:400;font-size:clamp(24px,3vw,32px);letter-spacing:.06em;text-transform:uppercase;line-height:1.1}
+.info h3{margin:6px 0 0;font-weight:400;font-size:13px;letter-spacing:.2em;text-transform:uppercase;color:var(--soft)}
+.desc{margin:0;color:var(--soft);font-size:15px;line-height:1.6;max-width:62ch}
+.specs{display:grid;grid-template-columns:auto 1fr;gap:8px 16px;margin:0;font-size:14px}
+.specs dt{color:var(--soft);letter-spacing:.06em}
+.specs dt,.specs dd{padding-bottom:8px;border-bottom:1px solid rgba(147,48,43,.35)}
+.specs dd{margin:0}
+.loc{color:var(--soft);font-size:13px;letter-spacing:.08em}
+:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.is-one header.brand{grid-template-columns:auto auto;justify-content:center;align-items:center;gap:14px;padding-block:0 18px}
+.is-one .brand .mark{width:110px}
+.is-one .brand h1{font-size:28px}
+.is-one .brand .rule,.is-one .brand p{display:none}
+/* logo elegante en mayúsculas; resto con trazo más lleno */
+.brand h1{font-family:"Cinzel","Trajan Pro","Times New Roman",serif;font-weight:700;text-transform:uppercase;letter-spacing:.1em;text-indent:.1em;font-size:clamp(38px,8vw,72px)}
+.is-one .brand h1{font-size:30px}
+.body h2,.info h2,.price,.bar button,.back,.wa,.brand p.cat,.sep b{font-weight:500}
+.ver,.desc,.ficha,.specs,.loc,.meta span,.brand p,footer,.sep,.info h3,.more{font-weight:500}
+/* paleta crema y bordó */
+:root{--bg2:#e8e0d3;--ox:#6e1717;--wine:#8a2a24;--wine2:#9b3a2c;--ink:#2a2220;--soft:#6b5f58;--line:rgba(110,23,23,.4);color-scheme:light}
+html{background:#efe8dc}body{background:radial-gradient(120% 70% at 50% -8%,#faf6ef 0%,#f0e9dd 50%,#e7dccb 100%) fixed}
+.brand h1{color:#6e1717;text-shadow:none}.brand p.cat{color:#6e1717}.brand .rule::after{box-shadow:0 0 0 3px #f3ede3}
+.car,.info{background:#fbf8f3;border-color:rgba(110,23,23,.12);box-shadow:0 10px 26px rgba(80,50,30,.12)}
+.car:hover{box-shadow:0 20px 40px rgba(80,50,30,.18)}
+.wa{background:linear-gradient(180deg,#7d1c1c,#5a1010);color:#fbf8f3}.wa:hover{background:linear-gradient(180deg,#8a2323,#4d0c0c)}
+.bar button{color:#2a2220}.bar button[aria-pressed="true"]{background:#6e1717;color:#fbf8f3}
+.back{color:#2a2220}
+.meta span{background:#f3ece2}
+.count,.arrow{background:rgba(110,23,23,.9);color:#fbf8f3}
+.dgal .slides{background:#e8e0d3}
+.thumbs button.on{border-color:#6e1717}
+.tag{background:#6e1717;color:#fbf8f3}
+:focus-visible{outline-color:#6e1717}
+</style>
+
+<div class="wrap">
+  <header class="brand">
+    <img class="mark" src="auto-trazo.png" alt="">
+    <h1>lp.motors</h1>
+    <div class="rule"></div>
+    <p class="cat">Catálogo</p>
+    <p>Usados seleccionados · Luján, Buenos Aires</p>
+  </header>
+  <section id="list">
+    <div class="bar" id="bar" hidden></div>
+    <div class="bar sub" id="sub" hidden></div>
+    <div class="sort" id="sort" hidden></div>
+    <div class="sep" id="sep" hidden></div>
+    <main class="grid" id="grid"><p class="empty">Cargando autos…</p></main>
+  </section>
+  <section id="one" hidden></section>
+  <div class="lb" id="lb" hidden role="dialog" aria-label="Fotos"><img class="lbbg" id="lbbg" alt="" aria-hidden="true"><div class="top"><span class="cnt" id="lbc"></span><button class="x" id="lbx" aria-label="Cerrar">×</button></div><div class="strip" id="lbs"></div><button class="arrow prev" id="lbp" aria-label="Foto anterior">‹</button><button class="arrow next" id="lbn" aria-label="Foto siguiente">›</button><div class="lbth" id="lbt"></div></div>
+  <footer>
+    <div class="flogo">LP.MOTORS</div>
+    <div class="frule"></div>
+    <div class="fred">Nuestras redes</div>
+    <div class="flinks">
+      <a href="https://www.instagram.com/lp.motorsok/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>Instagram</a>
+      <a href="https://wa.me/5491154854749" target="_blank" rel="noopener" id="fwa">WhatsApp</a>
+    </div>
+    <span id="upd"></span>
+  </footer>
+</div>
+
+<script>
+(() => {
+const $ = (id) => document.getElementById(id);
+const esc = (v) => String(v ?? "").replace(/[&<>"']/g, (c) => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const nf = (n) => Number(n).toLocaleString("es-AR",{maximumFractionDigits:0});
+const WA_ICON = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8s-.4-.1-.6.1-.7.8-.8 1-.3.2-.6.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.2-.4.7-1.4.1-.2 0-.3 0-.5l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.8 11.9 11.9 0 0 0 4.6 4 5.2 5.2 0 0 0 3.2.7 2.7 2.7 0 0 0 1.8-1.3 2.2 2.2 0 0 0 .2-1.3c-.1-.1-.3-.2-.5-.3z"/></svg>';
+let DATA = null, filter = "auto", sub = "", rango = "", orden = "";
+/* referidos: el mismo catálogo con #santi al final del link */
+let REF = "";
+const refName = () => REF.split("-").filter(Boolean).map((w) => w[0].toUpperCase() + w.slice(1)).join(" ");
+const readRef = (h) => { if (!h) return h; const i = h.indexOf("auto-"); if (i === 0) return h; REF = (i > 0 ? h.slice(0, i - 1) : h).toLowerCase(); return i > 0 ? h.slice(i) : ""; };
+const refTxt = () => REF ? `${refName()} me pasó tu contacto. ` : "";
+{ const p = decodeURIComponent(location.pathname).replace(/^\/+|\/+$/g, "").toLowerCase(); if (p && p !== "index.html" && !p.includes("/")) REF = p.replace(/[^a-z0-9-]/g, ""); }
+readRef(location.hash.slice(1));
+const catOf = (c) => c.categoria || (c.tipo === "moto" ? "moto" : ["lancha","nautica","nautico","moto de agua"].includes(c.tipo) ? "nautica" : "auto");
+const uso = (c) => c.horas != null && c.km == null ? nf(c.horas) + " hs" : c.km != null ? nf(c.km) + " km" : "";
+const RANGOS = [["","Cualquier precio"],["0-10000","Hasta US$10.000"],["10000-20000","US$10.000 a 20.000"],["20000-30000","US$20.000 a 30.000"],["30000-1e12","Más de US$30.000"]];
+const veh = (c) => c.mensaje || ((c.genero === "f" ? "la " : "el ") + c.titulo + (c.anio ? " " + c.anio : ""));
+const waLink = (num, c) => `https://wa.me/${num}?text=` + encodeURIComponent((REF ? `¡Hola! ${refName()} me pasó el catálogo y me interesó ${veh(c)}. ¿Podrías darme más información?` : `¡Hola! Vi ${veh(c)} en el catálogo. ¿Me podrías dar más info?`).replace(/\s+/g," "));
+const pronto = (c) => !(c.fotos || []).length;
+const price = (c) => pronto(c) ? `<div class="price prox">Próximamente</div>` : DATA.mostrarPrecio && c.precio ? `<div class="price">${c.moneda === "ARS" ? "$" : "US$"} ${nf(c.precio)}</div>` : "";
+const hashOf = (c) => (REF ? REF + "-" : "") + "auto-" + String(c.id).replace(/[^a-zA-Z0-9-]/g, "-");
+
+function slidesHTML(c, big){
+  const f = c.fotos || [];
+  const imgs = f.length ? f.map((src, i) => big
+    ? `<div class="sl" data-i="${i}"><img class="bg" src="${esc(src)}" alt="" aria-hidden="true" loading="${i ? "lazy" : "eager"}" draggable="false"><img class="fg" src="${esc(src)}" alt="${esc(c.titulo)} — foto ${i+1}" loading="${i ? "lazy" : "eager"}" draggable="false"></div>`
+    : `<img src="${esc(src)}" alt="${esc(c.titulo)} — foto ${i+1}" loading="${i ? "lazy" : "eager"}" draggable="false">`).join("") : `<div class="ph prox"><span>Próximamente</span></div>`;
+  return `<div class="cw ${big ? "" : "card-arrows"}"><div class="slides" data-slides${big && f.length ? " data-zoom" : ""}>${imgs}</div>
+    ${f.length > 1 ? `<button class="arrow prev" data-step="-1" aria-label="Foto anterior">‹</button><button class="arrow next" data-step="1" aria-label="Foto siguiente">›</button><div class="dots">${f.map((_, i) => `<i class="${i ? "" : "on"}"></i>`).join("")}</div><span class="count">1 / ${f.length}</span>` : ""}
+    ${c.estado === "reservado" ? `<span class="tag">Reservado</span>` : ""}</div>`;
+}
+function wire(root){
+  root.querySelectorAll("[data-slides]").forEach((s) => {
+    const cw = s.parentElement, dots = [...cw.querySelectorAll(".dots i")], count = cw.querySelector(".count"), n = s.children.length;
+    const idx = () => Math.round(s.scrollLeft / Math.max(1, s.clientWidth));
+    s.addEventListener("scroll", () => { const i = idx(); dots.forEach((d, k) => d.classList.toggle("on", k === i)); if (count) count.textContent = `${i+1} / ${n}`; const th = document.querySelectorAll(".thumbs button"); if (cw.closest(".dgal")) th.forEach((b, k) => b.classList.toggle("on", k === i)); }, {passive:true});
+    cw.querySelectorAll("[data-step]").forEach((b) => b.addEventListener("click", (e) => { e.stopPropagation(); const i = Math.max(0, Math.min(n-1, idx() + Number(b.dataset.step))); s.scrollTo({left: i * s.clientWidth, behavior: "smooth"}); }));
+  });
+}
+function renderList(){
+  const usd = (c) => c.moneda === "ARS" ? c.precio / (DATA.dolar || 1555) : c.precio;
+  const [rMin, rMax] = rango ? rango.split("-").map(Number) : [0, Infinity];
+  let autos = (DATA.autos || []).map((c, k) => ({c, k})).filter(({c}) => (filter === "todos" || catOf(c) === filter) && (!sub || c.tipo === sub) && (!rango || (c.precio && usd(c) >= rMin && usd(c) <= rMax)));
+  autos.reverse();
+  if (orden === "anio") autos.sort((a, b) => (b.c.anio || 0) - (a.c.anio || 0));
+  if (orden === "barato" || orden === "caro") autos.sort((a, b) => (pronto(a.c) - pronto(b.c)) || (orden === "barato" ? usd(a.c) - usd(b.c) : usd(b.c) - usd(a.c)));
+  autos = autos.map(({c}) => c);
+  $("grid").innerHTML = autos.length ? autos.map((c, i) => `
+    <article class="car" style="--i:${i}">
+      <div class="open" data-open="${esc(hashOf(c))}">${slidesHTML(c, false)}</div>
+      <div class="body open" data-open="${esc(hashOf(c))}">
+        <h2>${esc(c.titulo)}</h2>
+        ${c.version ? `<div class="ver">${esc(c.version)}</div>` : ""}
+        <div class="meta">${c.anio ? `<span>${esc(c.anio)}</span>` : ""}${uso(c) ? `<span>${uso(c)}</span>` : ""}</div>
+        ${price(c)}
+        ${(c.ficha||[]).length && !pronto(c) ? `<ul class="ficha">${c.ficha.map((l) => `<li>${esc(l)}</li>`).join("")}</ul>` : ""}
+        <span class="more">Ver detalle</span>
+      </div>
+      <div class="body" style="padding-top:0;flex:0"><a class="wa" href="${esc(waLink(DATA.whatsapp, c))}" target="_blank" rel="noopener">${WA_ICON}Consultar por WhatsApp</a></div>
+    </article>`).join("") : (DATA.autos||[]).length ? `<p class="empty">No hay unidades con ese filtro.</p>` : `<p class="empty">Pronto vas a ver los vehículos disponibles acá.</p>`;
+  const n = autos.length; $("sep").innerHTML = n ? `<b>${n}</b>&nbsp;${n === 1 ? "unidad disponible" : "unidades disponibles"}` : ""; $("sep").hidden = !n;
+  wire($("grid"));
+}
+function renderOne(c){
+  const f = c.fotos || [];
+  const specs = (c.detalle && c.detalle.length ? c.detalle : (c.ficha || []).map((l) => ({k:"", v:l})));
+  $("one").innerHTML = `<button class="back" id="back">← Volver al catálogo</button>
+    <div class="detail">
+      <div class="dgal">${slidesHTML(c, true)}${f.length > 1 ? `<div class="thumbs">${f.map((src, i) => `<button data-th="${i}" class="${i ? "" : "on"}" aria-label="Ver foto ${i+1}"><img src="${esc(src)}" alt="" loading="lazy"></button>`).join("")}</div>` : ""}</div>
+      <aside class="info">
+        <div><h2>${esc(c.titulo)}</h2>${c.version ? `<div class="ver" style="margin-top:4px">${esc(c.version)}</div>` : ""}</div>
+        <div class="meta">${c.anio ? `<span>${esc(c.anio)}</span>` : ""}${uso(c) ? `<span>${uso(c)}</span>` : ""}${c.estado === "reservado" ? `<span>Reservado</span>` : ""}</div>
+        ${price(c)}
+        ${c.descripcion && !pronto(c) ? `<p class="desc">${esc(c.descripcion)}</p>` : ""}
+        ${specs.length && !pronto(c) ? `<div><h3>Ficha técnica</h3><dl class="specs" style="margin-top:10px">${specs.map((s) => s.k ? `<dt>${esc(s.k)}</dt><dd>${esc(s.v)}</dd>` : `<dt>·</dt><dd>${esc(s.v)}</dd>`).join("")}</dl></div>` : ""}
+        <div class="loc">📍 Luján, Provincia de Buenos Aires</div>
+        <a class="wa" href="${esc(waLink(DATA.whatsapp, c))}" target="_blank" rel="noopener">${WA_ICON}Consultar por WhatsApp</a>
+      </aside>
+    </div>`;
+  wire($("one"));
+  const zs = $("one").querySelector("[data-zoom]");
+  if (zs) zs.addEventListener("click", () => openLB(f, Math.round(zs.scrollLeft / Math.max(1, zs.clientWidth))));
+  $("one").querySelectorAll("[data-th]").forEach((b) => b.addEventListener("click", () => { const s = $("one").querySelector("[data-slides]"); s.scrollTo({left: Number(b.dataset.th) * s.clientWidth, behavior: "smooth"}); }));
+  $("back").addEventListener("click", () => { location.hash = REF; route(); });
+}
+
+/* ---------- visor a pantalla completa con zoom ---------- */
+let LB = {fotos:[], i:0};
+const lbS = () => $("lbs");
+function lbIdx(){ const s = lbS(); return Math.round(s.scrollLeft / Math.max(1, s.clientWidth)); }
+function lbCount(){ const k = lbIdx(); $("lbc").textContent = `${k+1} / ${LB.fotos.length}`;
+  const bg = $("lbbg"), src = LB.fotos[k]; if (src && bg.getAttribute("src") !== src) bg.src = src;
+  $("lbt").querySelectorAll("button").forEach((b, j) => { b.classList.toggle("on", j === k); if (j === k) b.scrollIntoView({block:"nearest", inline:"nearest"}); }); }
+function fit(z, img){ const cw = z.clientWidth, ch = z.clientHeight, ar = (img.naturalWidth || 4) / (img.naturalHeight || 3); const w = Math.min(cw, ch * ar); return {w, h: w / ar, cw, ch}; }
+function setZoom(z, sc, cx, cy){
+  const img = z.querySelector("img"); sc = Math.max(1, Math.min(5, sc));
+  if (sc <= 1.01){ z.dataset.s = 1; z.classList.remove("on"); img.style.width = img.style.height = ""; $("lb").classList.toggle("zoomed", false); return; }
+  const prev = Number(z.dataset.s || 1), F = fit(z, img), rect = z.getBoundingClientRect();
+  cx = cx ?? rect.left + F.cw/2; cy = cy ?? rect.top + F.ch/2;
+  const r = prev > 1 ? img.getBoundingClientRect() : {left: rect.left + (F.cw - F.w)/2, top: rect.top + (F.ch - F.h)/2, width: F.w, height: F.h};
+  const rx = Math.max(0, Math.min(1, (cx - r.left) / r.width)), ry = Math.max(0, Math.min(1, (cy - r.top) / r.height));
+  z.dataset.s = sc; z.classList.add("on"); $("lb").classList.add("zoomed");
+  img.style.width = F.w * sc + "px"; img.style.height = F.h * sc + "px";
+  const nw = F.w * sc, nh = F.h * sc;
+  z.scrollLeft = rx * nw - (cx - rect.left); z.scrollTop = ry * nh - (cy - rect.top);
+}
+function resetAll(){ lbS().querySelectorAll(".z").forEach((z) => setZoom(z, 1)); }
+function openLB(fotos, i){
+  LB = {fotos, i}; const s = lbS();
+  s.innerHTML = fotos.map((src, k) => `<div class="z" data-s="1"><img src="${esc(src)}" alt="Foto ${k+1}" draggable="false"></div>`).join("");
+  $("lbt").innerHTML = fotos.length > 1 ? fotos.map((src, k) => `<button data-lt="${k}" aria-label="Ver foto ${k+1}"><img src="${esc(src)}" alt="" loading="lazy"></button>`).join("") : "";
+  $("lbt").hidden = fotos.length < 2;
+  $("lbt").querySelectorAll("[data-lt]").forEach((b) => b.addEventListener("click", () => { resetAll(); s.scrollTo({left: Number(b.dataset.lt) * s.clientWidth}); }));
+  $("lb").hidden = false; document.body.style.overflow = "hidden";
+  requestAnimationFrame(() => { s.scrollLeft = i * s.clientWidth; lbCount(); });
+  const multi = fotos.length > 1; $("lbp").hidden = $("lbn").hidden = !multi;
+  s.querySelectorAll(".z").forEach((z) => {
+    let last = 0, pinch = null, pan = null;
+    z.addEventListener("click", (e) => { const now = Date.now(); if (matchMedia("(hover:hover)").matches){ setZoom(z, Number(z.dataset.s) > 1 ? 1 : 2.5, e.clientX, e.clientY); return; } if (now - last < 300){ setZoom(z, Number(z.dataset.s) > 1 ? 1 : 2.5, e.clientX, e.clientY); last = 0; } else last = now; });
+    z.addEventListener("touchstart", (e) => { if (e.touches.length === 2){ const [a,b] = e.touches; pinch = {d: Math.hypot(a.clientX-b.clientX, a.clientY-b.clientY), s: Number(z.dataset.s||1)}; } else if (e.touches.length === 1 && Number(z.dataset.s) > 1){ pan = {x:e.touches[0].clientX, y:e.touches[0].clientY, l:z.scrollLeft, t:z.scrollTop}; } }, {passive:true});
+    z.addEventListener("touchmove", (e) => {
+      if (pinch && e.touches.length === 2){ e.preventDefault(); const [a,b] = e.touches; const d = Math.hypot(a.clientX-b.clientX, a.clientY-b.clientY); setZoom(z, pinch.s * d / pinch.d, (a.clientX+b.clientX)/2, (a.clientY+b.clientY)/2); }
+      else if (pan && e.touches.length === 1){ e.preventDefault(); z.scrollLeft = pan.l - (e.touches[0].clientX - pan.x); z.scrollTop = pan.t - (e.touches[0].clientY - pan.y); }
+    }, {passive:false});
+    z.addEventListener("touchend", (e) => { if (e.touches.length < 2) pinch = null; if (!e.touches.length) pan = null; });
+    z.addEventListener("wheel", (e) => { if (!e.ctrlKey && Number(z.dataset.s) <= 1) return; if (e.ctrlKey){ e.preventDefault(); setZoom(z, Number(z.dataset.s||1) * (e.deltaY < 0 ? 1.15 : 1/1.15), e.clientX, e.clientY); } }, {passive:false});
+  });
+  s.onscroll = () => { const k = lbIdx(); if (k !== LB.i){ LB.i = k; resetAll(); } lbCount(); };
+}
+function closeLB(){ resetAll(); $("lb").hidden = true; document.body.style.overflow = ""; const g = $("one").querySelector("[data-zoom]"); if (g) g.scrollTo({left: LB.i * g.clientWidth}); }
+function stepLB(d){ resetAll(); const s = lbS(); const k = Math.max(0, Math.min(LB.fotos.length-1, lbIdx() + d)); s.scrollTo({left: k * s.clientWidth, behavior:"smooth"}); }
+$("lbx").addEventListener("click", closeLB);
+$("lbp").addEventListener("click", () => stepLB(-1));
+$("lbn").addEventListener("click", () => stepLB(1));
+addEventListener("keydown", (e) => { if ($("lb").hidden) return; if (e.key === "Escape") closeLB(); if (e.key === "ArrowLeft") stepLB(-1); if (e.key === "ArrowRight") stepLB(1); });
+addEventListener("resize", () => { if (!$("lb").hidden){ resetAll(); lbS().scrollLeft = LB.i * lbS().clientWidth; } });
+function bar(){
+  const O = [["barato","Menor precio"],["caro","Mayor precio"],["anio","Más nuevos"]];
+  $("sort").innerHTML = `<span>Ordenar:</span>` + O.map(([k, t]) => `<button data-o="${k}" aria-pressed="${k===orden}">${t}</button>`).join("") + `<select id="rango" aria-label="Filtrar por precio">${RANGOS.map(([v, t]) => `<option value="${v}"${v===rango?" selected":""}>${t}</option>`).join("")}</select>`; $("sort").hidden = false;
+  const L = {todos:"Todos", auto:"Autos", moto:"Motos", nautica:"Náutica"};
+  $("bar").innerHTML = ["auto","moto","nautica"].map((t) => `<button data-f="${t}" aria-pressed="${t===filter}">${L[t]}</button>`).join(""); $("bar").hidden = false;
+  const S = [["","Todos los autos"],["sedan","Sedán"],["suv","SUV"],["pickup","Pickup"],["hatchback","Hatchback"]];
+  $("sub").innerHTML = filter === "auto" ? S.map(([t, l]) => `<button data-sub="${t}" aria-pressed="${t===sub}">${l}</button>`).join("") : ""; $("sub").hidden = filter !== "auto";
+}
+function route(){
+  if (!DATA) return;
+  if (!$("lb").hidden) closeLB();
+  const raw = location.hash.slice(1); const h = readRef(raw) ? raw : ""; const c = h && DATA.autos.find((x) => hashOf(x) === h || (REF && hashOf(x) === REF + "-" + h));
+  if (REF) $("fwa").href = "https://wa.me/5491154854749?text=" + encodeURIComponent(`¡Hola! ${refName()} me pasó el catálogo. ¿Podrías darme más información?`);
+  document.body.classList.toggle("is-one", !!c);
+  if (c){ $("list").hidden = true; $("one").hidden = false; renderOne(c); window.scrollTo(0, 0); }
+  else { $("one").hidden = true; $("list").hidden = false; }
+}
+document.addEventListener("click", (e) => {
+  const f = e.target.closest("[data-f]"); if (f){ filter = f.dataset.f; sub = ""; bar(); renderList(); return; }
+  const sb = e.target.closest("[data-sub]"); if (sb){ sub = sb.dataset.sub; bar(); renderList(); return; }
+  const ob = e.target.closest("[data-o]"); if (ob){ orden = orden === ob.dataset.o ? "" : ob.dataset.o; bar(); renderList(); return; }
+  if (e.target.closest(".arrow") || e.target.closest(".wa")) return;
+  const o = e.target.closest("[data-open]"); if (o){ location.hash = o.dataset.open; route(); }
+});
+addEventListener("hashchange", route);
+document.addEventListener("change", (e) => { if (e.target.id === "rango"){ rango = e.target.value; renderList(); } });
+$("fwa").insertAdjacentHTML("afterbegin", WA_ICON);
+fetch("catalogo.json", {cache:"no-store"}).then((r) => r.json()).then((d) => {
+  DATA = d; bar(); renderList(); route();
+  if (d.actualizado){ const t = new Date(d.actualizado); $("upd").textContent = "Actualizado el " + t.toLocaleDateString("es-AR",{day:"numeric",month:"long",timeZone:"America/Argentina/Buenos_Aires"}); }
+}).catch(() => { $("grid").innerHTML = `<p class="empty">No se pudo cargar el catálogo. Probá recargar la página.</p>`; });
+})();
+</script>
+
+</body></html>
