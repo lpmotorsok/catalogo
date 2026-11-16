@@ -142,55 +142,6 @@
    "categoria": "auto"
   },
   {
-   "id": "tracker-ltz-2023",
-   "titulo": "Chevrolet Tracker",
-   "version": "LTZ 1.2 Turbo AT",
-   "anio": 2023,
-   "km": 40000,
-   "precio": 28500000,
-   "moneda": "ARS",
-   "estado": "disponible",
-   "tipo": "suv",
-   "mensaje": "la Tracker LTZ 2023",
-   "fotos": [],
-   "ficha": [
-    "Motor 1.2 turbo nafta",
-    "Caja automática de 6 velocidades"
-   ],
-   "descripcion": "SUV compacto con motor turbo y caja automática, en la versión LTZ. Con 40.000 km, de las menos usadas de su año.",
-   "detalle": [
-    {
-     "k": "Motor",
-     "v": "1.2 turbo nafta"
-    },
-    {
-     "k": "Potencia",
-     "v": "132 CV"
-    },
-    {
-     "k": "Torque",
-     "v": "190 Nm"
-    },
-    {
-     "k": "Caja",
-     "v": "Automática de 6 velocidades"
-    },
-    {
-     "k": "Tracción",
-     "v": "Delantera"
-    },
-    {
-     "k": "Carrocería",
-     "v": "SUV 5 puertas"
-    },
-    {
-     "k": "Kilómetros",
-     "v": "40.000"
-    }
-   ],
-   "categoria": "auto"
-  },
-  {
    "id": "cerato-forte-2-0",
    "titulo": "Kia Cerato",
    "version": "2.0 AT (2019)",
