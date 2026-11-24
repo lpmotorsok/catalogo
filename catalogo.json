@@ -1,78 +1,8 @@
 {
- "actualizado": "2026-11-24T19:44:54-03:00",
+ "actualizado": "2026-11-24T19:46:23-03:00",
  "whatsapp": "5491154854749",
  "mostrarPrecio": true,
  "autos": [
-  {
-   "id": "amarok-v6-2023",
-   "titulo": "Volkswagen Amarok V6",
-   "version": "Comfortline 3.0 V6 258cv 4x4 AT",
-   "anio": 2023,
-   "km": 110000,
-   "precio": 27500,
-   "moneda": "USD",
-   "estado": "reservado",
-   "tipo": "pickup",
-   "mensaje": "la Amarok V6 Comfortline 2023",
-   "fotos": [
-    "fotos/0cdc1a2a4c8855acf0330c4f51f71e14.jpg",
-    "fotos/6f9e3b53b8339436fe4f14b615cc5ef6.jpg",
-    "fotos/a2c838e46a29552edfe2cd42c12af7c4.jpg",
-    "fotos/04827b0a37aa2e34ea49692ccb80958b.jpg",
-    "fotos/4a46ed52d2fc5fdbdd112aa719bdb7d5.jpg",
-    "fotos/d766157acacea5dd8c4bed5e78ad9336.jpg",
-    "fotos/fa1532954a23a8f3c14af703963fb2ea.jpg",
-    "fotos/d0856267a26bfe8fc2da17476bb4397b.jpg",
-    "fotos/070c10ec22f57fbb66688c342c15c24a.jpg",
-    "fotos/7b602254cfa847e07d1c1d8df61b1d04.jpg",
-    "fotos/7a5727254c35c22a376c5e6de0bb0aba.jpg",
-    "fotos/86453d57d474e93c088bc2a12ef28be7.jpg",
-    "fotos/c5a3c92b074158a1d25d5fc7dd6f0210.jpg",
-    "fotos/afb4dfd8d51e19be9860573d40a08f7a.jpg"
-   ],
-   "ficha": [
-    "Motor V6 3.0L turbo diésel",
-    "258 CV · 580 Nm de torque",
-    "Caja automática de 8 velocidades",
-    "Tracción integral"
-   ],
-   "descripcion": "Pickup de cabina doble con el motor V6 diésel, la versión más buscada de la Amarok. Automática, con tracción integral permanente y 110.000 km.",
-   "detalle": [
-    {
-     "k": "Motor",
-     "v": "V6 3.0 TDI turbo diésel"
-    },
-    {
-     "k": "Potencia",
-     "v": "258 CV"
-    },
-    {
-     "k": "Torque",
-     "v": "580 Nm"
-    },
-    {
-     "k": "Caja",
-     "v": "Automática de 8 velocidades"
-    },
-    {
-     "k": "Tracción",
-     "v": "Integral permanente 4Motion"
-    },
-    {
-     "k": "Carrocería",
-     "v": "Pickup cabina doble"
-    },
-    {
-     "k": "Combustible",
-     "v": "Diésel"
-    },
-    {
-     "k": "Kilómetros",
-     "v": "110.000"
-    }
-   ],
-   "categoria": "auto"
-  },
   {
    "id": "cherokee-overland-2013",
    "titulo": "Jeep Grand Cherokee",
