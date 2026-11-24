@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-24T19:46:23-03:00",
+ "actualizado": "2026-11-24T19:47:13-03:00",
  "whatsapp": "5491154854749",
  "mostrarPrecio": true,
  "autos": [
@@ -67,59 +67,6 @@
     {
      "k": "Kilómetros",
      "v": "170.000"
-    }
-   ],
-   "categoria": "auto"
-  },
-  {
-   "id": "cerato-forte-2-0",
-   "titulo": "Kia Cerato",
-   "version": "2.0 AT (2019)",
-   "anio": 2019,
-   "km": 80000,
-   "precio": 16500,
-   "moneda": "USD",
-   "estado": "disponible",
-   "tipo": "sedan",
-   "mensaje": "el Kia Cerato 2019",
-   "fotos": [
-    "fotos/92b8d3b23c237612a9e969d808fdd78b.jpg",
-    "fotos/78dcc94a1fe6aa39220049fe1b67a4f6.jpg",
-    "fotos/83dd272b7df0a2556029b111e5701a34.jpg",
-    "fotos/8cb7fee942bc06bfddf09e7843409645.jpg",
-    "fotos/21a5032aed769e5225ebf77a0c5fe4b2.jpg",
-    "fotos/a36d0a8f88ec45fd460d3b32730c25db.jpg",
-    "fotos/d22a93490236a41eeb9e6a10248cb304.jpg",
-    "fotos/3346a8d5340ee51925aa8b08fd4aea07.jpg",
-    "fotos/c30c4bd6d8c3b51b4fb1bce065815f2b.jpg",
-    "fotos/9e89ddedacd6ae1fefbbb026305e9456.jpg",
-    "fotos/629044d80bab1ec9b7a88f9f30c4297a.jpg"
-   ],
-   "ficha": [
-    "Motor 2.0 nafta",
-    "Caja automática de 6 velocidades"
-   ],
-   "descripcion": "Sedán mediano automático, cómodo para el día a día y la ruta, con 80.000 km.",
-   "detalle": [
-    {
-     "k": "Motor",
-     "v": "2.0 nafta"
-    },
-    {
-     "k": "Caja",
-     "v": "Automática de 6 velocidades"
-    },
-    {
-     "k": "Tracción",
-     "v": "Delantera"
-    },
-    {
-     "k": "Combustible",
-     "v": "Nafta"
-    },
-    {
-     "k": "Kilómetros",
-     "v": "80.000"
     }
    ],
    "categoria": "auto"
