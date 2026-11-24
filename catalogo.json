@@ -1,5 +1,5 @@
 {
- "actualizado": "2026-11-13T19:02:00-03:00",
+ "actualizado": "2026-11-24T19:44:54-03:00",
  "whatsapp": "5491154854749",
  "mostrarPrecio": true,
  "autos": [
@@ -11,7 +11,7 @@
    "km": 110000,
    "precio": 27500,
    "moneda": "USD",
-   "estado": "disponible",
+   "estado": "reservado",
    "tipo": "pickup",
    "mensaje": "la Amarok V6 Comfortline 2023",
    "fotos": [
@@ -79,7 +79,7 @@
    "version": "Overland 3.6 V6 286hp AT",
    "anio": 2013,
    "km": 170000,
-   "precio": 20500,
+   "precio": 20000,
    "moneda": "USD",
    "estado": "disponible",
    "tipo": "suv",
@@ -504,6 +504,119 @@
      "v": "62.000"
     }
    ]
+  },
+  {
+   "id": "renault-kangoo-confort-2017",
+   "titulo": "Renault Kangoo",
+   "version": "Confort 5 asientos",
+   "anio": 2017,
+   "km": 214000,
+   "precio": 11000,
+   "moneda": "USD",
+   "estado": "disponible",
+   "tipo": "utilitario",
+   "mensaje": "la Renault Kangoo 2017",
+   "fotos": [
+    "fotos/3f64a133e0227e3ad7338b75490da0b3.jpg",
+    "fotos/ff72068c4414432372ec16eeaad2f20d.jpg",
+    "fotos/049dcccc66ad0674e0fe122ba79442c4.jpg",
+    "fotos/5f6205abfa86cf10dc3a10a889a3f35d.jpg",
+    "fotos/7edc37b514ab8dc97cb1bf258fbd561b.jpg",
+    "fotos/ad27a994eec7611ed4d7cfe49335c8be.jpg",
+    "fotos/b2fb1cca494b0a78d14c9c7475938103.jpg",
+    "fotos/21d6b350de778833d43624014bc29793.jpg",
+    "fotos/322e98079c4f0e573a443a6869e3ebce.jpg",
+    "fotos/863137c30b3789b55b4cc4749c5152e4.jpg"
+   ],
+   "ficha": [
+    "Motor 1.6 16V nafta",
+    "Caja manual",
+    "5 asientos · puerta lateral corrediza"
+   ],
+   "descripcion": "Utilitario de 5 asientos con puerta lateral corrediza y portón trasero doble. Ideal para trabajo y familia.",
+   "detalle": [
+    {
+     "k": "Motor",
+     "v": "1.6 16V"
+    },
+    {
+     "k": "Caja",
+     "v": "Manual"
+    },
+    {
+     "k": "Carrocería",
+     "v": "Utilitario 5 asientos"
+    },
+    {
+     "k": "Combustible",
+     "v": "Nafta"
+    },
+    {
+     "k": "Color",
+     "v": "Gris plata"
+    },
+    {
+     "k": "Kilómetros",
+     "v": "214.000"
+    }
+   ],
+   "categoria": "auto"
+  },
+  {
+   "id": "mercedes-vito-tourer-119cdi-2026",
+   "titulo": "Mercedes-Benz Vito Tourer",
+   "version": "119 CDI",
+   "anio": 2026,
+   "km": 13000,
+   "precio": 50000,
+   "moneda": "USD",
+   "estado": "disponible",
+   "tipo": "utilitario",
+   "mensaje": "la Mercedes-Benz Vito Tourer 2026",
+   "fotos": [
+    "fotos/338b9736cedb9e9b56903bdd29a645ba.jpg",
+    "fotos/28494e7b6f3e926d626af93ad374a186.jpg",
+    "fotos/3a7d3861e669f0fb3f1f3b1f11ba83e5.jpg",
+    "fotos/080e4d879050c4ee19cbe7b28a56c66a.jpg",
+    "fotos/76d41041a3675d3a1d24dbe5810cc42d.jpg",
+    "fotos/9b3917bf90c5a9f78f179cb6a681ae7a.jpg",
+    "fotos/e822fc5f18ee899045c61a6bdea01503.jpg",
+    "fotos/86c74a7b38b8f642bb6f7f74ba4a2dcf.jpg",
+    "fotos/7f1e5bf3f06ae6609bd8bc3ce4f6d40d.jpg"
+   ],
+   "ficha": [
+    "Motor 2.0 turbo diésel",
+    "Caja automática",
+    "Pantalla multimedia con Apple CarPlay"
+   ],
+   "descripcion": "Van de pasajeros prácticamente nueva, con 13.000 km. Color gris oscuro y pantalla multimedia con Apple CarPlay.",
+   "detalle": [
+    {
+     "k": "Motor",
+     "v": "2.0 turbo diésel (119 CDI)"
+    },
+    {
+     "k": "Caja",
+     "v": "Automática"
+    },
+    {
+     "k": "Carrocería",
+     "v": "Van de pasajeros"
+    },
+    {
+     "k": "Combustible",
+     "v": "Diésel"
+    },
+    {
+     "k": "Color",
+     "v": "Gris oscuro"
+    },
+    {
+     "k": "Kilómetros",
+     "v": "13.000"
+    }
+   ],
+   "categoria": "auto"
   }
  ]
 }
